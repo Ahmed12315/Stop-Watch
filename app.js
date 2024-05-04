@@ -27,8 +27,8 @@ watchinterval = setInterval(function() {
         }
     
         milisecond_html.innerText = miliseconds
-        second_html.innerText = seconds < 10 ? "0" + seconds : seconds
-        minute_html.innerText = minute < 10 ? "0" + minute : minute
+        second_html.innerText = seconds 
+        minute_html.innerText = minute 
     }, 10);
 }
 
