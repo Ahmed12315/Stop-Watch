@@ -1,0 +1,276 @@
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    color: silver;
+    font-size: 3em;
+}
+.main-container{
+    width: 750px;
+    height: 321px;
+    margin: 0px auto ;
+    margin-top: 10px;
+    border-radius: 50px;
+    position: relative;
+}
+.display{
+    border: 5px solid silver;
+    width: 750px;
+    height: 321px;
+    margin: 0px auto ;
+    border-radius: 45px;
+    background: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+}
+.power-btn{
+    width: 50px;
+    height: 1px;
+    border: 2px solid silver;
+    border-radius: 2px;
+    position: absolute;
+    top: -3px;
+    left: 200px;
+    background-color: black;
+}
+.volume-btn{
+    width: 80px;
+    height: 1px;
+    border: 2px solid silver;
+    border-radius: 2px;
+    position: absolute;
+    top: -3px;
+    left: 280px;
+    background-color: black;
+}
+.screen{
+    height: 300px;
+    width: 650px;
+    margin: 10px auto 10px auto;
+    border: 1px solid silver;
+}
+.notch{
+    width: 5px;
+    height: 120px;
+    border: 2px solid black;
+    position: absolute;
+    border-radius: 12px;
+    top: 95px;
+    left: 25px;
+    background: linear-gradient(177.9deg, rgb(58, 62, 88) 3.6%, rgb(119, 127, 148) 105.8%);
+}
+.notch2{
+    width: 5px;
+    height: 120px;
+    border: 2px solid black;
+    position: absolute;
+    border-radius: 12px;
+    top: 95px;
+    right: 15px;
+    background: linear-gradient(177.9deg, rgb(58, 62, 88) 3.6%, rgb(119, 127, 148) 105.8%);
+}
+.camera{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 20px;
+    top: 235px;
+    left: 24px;
+    background: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    width: 650px;
+    margin: 0px auto;
+}
+.nav>div{
+    list-style: none;
+    margin-right: 10px;
+    display: flex;
+    gap: 35px;
+    font-size:1.5em ;
+    margin-top: 10px;
+
+}
+.watch{
+    width: 650px;
+    height: 220px;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+.watch>div{
+    width: 34%;
+    height: 150px;
+    font-size: 6em;
+    margin-top: 40px;
+}
+.button{
+    width: 650px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+.button>button{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    font-size: 2em;
+    background-color: transparent;
+    border: transparent;
+}
+.button>button:hover{
+    background-color: #515d65;
+    color: white;
+    
+}
+#reset{
+    border-radius: 15px 0px 0px 15px;
+    
+}
+#start{
+    border-radius: 0px 15px 15px 0px;
+    
+}
+#stop{
+    border-radius: 0px 15px 15px 0px;
+    display: none;
+}
+
+@media only screen and (max-width :426px ) {
+    .main-container{
+        width: 400px;
+        height: 800px;
+        border-radius: 50px;
+        position: relative;
+      
+    }
+    .display{
+        border: 5px solid silver;
+        width: 400px;
+        height: 800px;
+        border-radius: 45px;
+        background: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+    }
+    .power-btn{
+        width: 1px;
+        height: 60px;
+        border: 2px solid silver;
+        border-radius: 2px;
+        position: absolute;
+        top: 150px;
+        left: 408px;
+        background-color: black;
+    }
+    .volume-btn{
+        width: 1px;
+        height: 90px;
+        border: 2px solid silver;
+        border-radius: 2px;
+        position: absolute;
+        top: 250px;
+        left: 408px;
+        background-color: black;
+    } 
+    .screen{
+        height: 720px;
+        width: 350px;
+        margin: 40px auto 10px auto;
+        border: 1px solid silver;
+    }  
+    .notch{
+        width: 130px;
+        height: 5px;
+        border: 2px solid black;
+        position: absolute;
+        border-radius: 12px;
+        top: 20px;
+        left: 135px;
+        background: linear-gradient(177.9deg, rgb(58, 62, 88) 3.6%, rgb(119, 127, 148) 105.8%);
+    }
+    .notch2{
+        width: 130px;
+        height: 5px;
+        border: 2px solid black;
+        position: absolute;
+        border-radius: 12px;
+        top: 785px;
+        right: 135px;
+        background: linear-gradient(177.9deg, rgb(58, 62, 88) 3.6%, rgb(119, 127, 148) 105.8%);
+    }
+    .camera{
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border: 1px solid black;
+        border-radius: 20px;
+        top: 20px;
+        left: 100px;
+        background: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+    
+    }
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        height: 30px;
+        width: 345px;
+        margin: 0px auto;
+    }
+    .icon{
+        display: none;
+    }
+    .stopwatch{
+        text-align: center;
+        margin-left: 110px;
+    }
+    .watch{
+        width: 350px;
+        height: 220px;
+        display: flex;
+        gap: 10px;
+        text-align: center;
+        margin-top: 200px;
+    }
+    .watch>div{
+        width: 34%;
+        height: 150px;
+        font-size: 3.5em;
+    }
+    .button{
+        width: 350px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 38px;
+    }
+    .button>button{
+        width: 50%;
+        height: 100%;
+        text-align: center;
+        font-size: 2em;
+        background-color: transparent;
+        border: transparent;
+    }
+    .button>button:hover{
+        color: white;
+        background-color: #515d65;
+
+    }
+    #reset{
+        border-radius: 15px 0px 0px 15px;
+        
+    }
+    #start{
+        border-radius: 0px 15px 15px 0px;
+        
+    }
+    #stop{
+        border-radius: 0px 15px 15px 0px;
+
+    }
+}
+

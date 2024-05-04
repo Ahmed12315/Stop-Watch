@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Stop Watch</h1>
+
+    <div class="main-container">
+        <div class="display">
+            <div class="screen">
+                <div class="notch"></div>
+                <div class="notch2"></div>
+                <div class="camera"></div>
+                <div  class="nav">
+                        <div style="color: rgb(0, 0, 0); font-weight: bolder;" class="stopwatch">Stopwatch</div>
+                        <div>
+                        <li style="color: silver;" class="icon"><i class="fa-solid fa-stopwatch"></i></li>
+                        <li style="color: silver;" class="icon"><i class="fa-solid fa-share-nodes" ></i></li>
+                        <li style="color: silver;"><i class="fa-solid fa-ellipsis-vertical"></i></li>
+                        </div>
+                </div>
+                <div class="watch">
+                    <div ><span id="minute" class="mins">0</span><span style="font-size: 0.5em;">m</span> :</div>
+                    <div><span id="second" class="seconds" >0</span><span style="font-size: 0.5em;">s</span> :</div>  
+                    <div><span id="milisecond" class="miliseconds">0</span><span style="font-size:0.5em;">ms</span></div>
+                </div>
+                <div class="button">
+                    <button id="reset" onclick="Reset()">Reset</button>
+                    <button id="start" onclick="Start()">Start</button>
+                    <button id="stop" onclick="Stop()">Stop</button>
+                </div>
+            </div>
+        </div>
+        <div class="power-btn"></div>
+        <div class="volume-btn"></div>
+    </div>
+    <h1>Made By Ahmed</h1>
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/5db65c16e2.js" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
